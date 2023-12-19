@@ -1,0 +1,105 @@
+
+/* Form Styles */
+
+h1 {
+    text-align: center;
+    color :white;
+    margin-bottom: 10px;
+    
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color:white;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+    
+    
+  }
+  
+  .submitarea
+
+  {
+    background-color: #15964f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    float:right;
+    width: auto;
+
+  }
+ 
+  
+  .submitarea:hover {
+    background-color: #0056b3;
+  }
+  .resetarea:hover {
+    background-color: #d72121;
+  }
+
+  /* Add a background image to the Signup component */
+.signup-background {
+  background-image: url('D:\SampleProject\reactwebexample\src\images\himalayas.jpg'); /* Replace with the actual path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.error-message
+{
+  color:aqua;
+  font-weight: bold;
+  
+}
+.resetarea
+{
+ 
+  float:left;
+  
+  background-color: #15964f;
+  color: #e6dfdf;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  width: auto;
+}
+.resetarea:hover {
+  background-color: #d72121;
+}
+
+
+

@@ -1,0 +1,182 @@
+.nav-link:hover
+{
+    color:red;
+}
+.footer
+{
+    color:white;
+}
+.followslist
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+.followhead
+{
+ text-align: center;
+}
+.bi-instagram
+{
+    color:pink;
+    font-size:36px;
+    
+}
+.bi-twitter
+{
+    color:blue;
+    font-size:36px;
+}
+.bi-twitter:hover
+{
+    color:red;
+    
+}
+.bi-facebook
+{
+    color: aqua;
+    font-size:36px;
+}
+.bi-whatsapp
+{
+    color:green;
+    font-size:36px;
+}
+.bi-youtube
+{
+    color: red;
+    font-size:36px;
+  
+   
+}
+.bi-envelope,.bi-telephone-outbound
+{
+    color:red;
+    
+}
+.copyrighthead
+{
+    text-align: center;
+}
+.supportandprivacyandterms
+{
+    display: flex;
+    
+    
+    
+}
+
+
+.support{
+    margin-left:450px;
+   text-align:center;
+   color: inherit;
+    text-decoration: inherit;
+}
+.privacy{
+    margin-left:20px;
+    text-align:center;
+    color: inherit;
+    text-decoration: inherit;
+}
+.termsandconditions
+{
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: inherit;
+  
+}
+.contactus
+{
+    
+    color:inherit;
+    text-decoration: inherit;
+    font-size: 20px;
+}
+.homebody
+{
+   
+        /* background-image: url('D:\SampleProject\reactwebexample\src\images\yellowmix.png'); Replace with the actual path to your image */
+        background-size: cover; /* Adjust as needed */
+         background-position: center; /*Adjust as needed */
+         min-height: 100vh; /*Set a minimum height to cover the entire viewport */
+         overflow-y: hidden;
+        
+        
+        
+     
+}
+.abouthead,.serviceshead,.contactmehead
+{
+    text-align: left;
+    font-size: 50px;
+   
+}
+.abouttext
+{
+    color:white;
+    font-size: 20px;
+    
+}
+.appwebandtest
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.softwaretestingheadandtext,.appdevelopmentheadandtext,.webdevelopmentheadandtext,.devopsazureawsheadandtext
+{
+    padding: 10px;
+
+background-color: rgb(20, 19, 1);
+border-right: 10px;
+border: 1px solid red;
+margin-right: 28px;
+margin-left: 28px;
+}
+
+.bi-android,.bi-code-slash,.bi-arrow-clockwise,.bi-cloud-check
+{
+    font-size:50px;
+}
+.learnmore
+{
+    color: rgb(238, 228, 228);
+    border: 1px solid rgb(219, 231, 218);
+    width:auto;
+    
+}
+.learnmore :hover{
+    background-color: black;
+}
+.softwaretestingheadandtext:hover, .devopsazureawsheadandtext:hover, .webdevelopmentheadandtext:hover, .appdevelopmentheadandtext:hover{
+    background-color:rgb(190, 22, 22);
+    font-size: 150%;
+    transition: all .5s ease-in-out;
+    
+}
+.homebody
+{
+    overflow: hidden;
+}
+
+
+
+::-webkit-scrollbar
+{
+    width: 4px;
+}
+::-webkit-scrollbar-track
+{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: red;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(177, 62, 62);
+}
